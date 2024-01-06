@@ -1,0 +1,21 @@
+.et-bg-image {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+
+  /* Preserve aspect ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -999;
+}
+
+.et-logo {
+  min-width: 400px;
+  width: 50%;
+}
+
+.et-summary {
+  font-size: 1.1em;
+}
