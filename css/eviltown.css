@@ -1,9 +1,9 @@
 .et-bg-image {
   background-color: #000;
   position: fixed;
-  top: 0;
+  bottom: -100px;
   left: 0;
-  opacity: 0.4;
+  opacity: 0.6;
 
   /* Preserve aspect ratio */
   min-width: 100%;
@@ -11,24 +11,68 @@
   z-index: -999;
 }
 
-.et-main-container {
-  margin-bottom: 10em;
-  margin-top: 10em;
+.row .col-et {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
 }
 
-.et-contact {
+.scroll-margin {
+  scroll-margin-top: 5rem;
+}
+
+#lineup {
+  margin-top: 2em;
+}
+#lineup .short-desc {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#info {
+  margin-top: 4em;
+}
+
+#inscription {
+  margin-top: 4em;
+}
+
+#footer {
+  margin-top: 4em;
+  padding-bottom: 2em;
+}
+#footer .et-contact {
   margin-top: 1em;
 }
 
-.et-links {
-  padding-bottom: 5em;
+#navbar-main,
+#navbar-main.bg-dark {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+#navbar-main .container {
+  max-width: 720px;
+}
+#navbar-main .navbar-brand {
+  color: #f00;
+  font-size: 1.4em;
+}
+#navbar-main .navbar-nav-links {
+  margin-left: auto;
+  margin-right: 0;
+}
+#navbar-main .nav-item a {
+  color: #fff;
+  font-size: 1.3em;
+}
+#navbar-main .nav-item a:hover {
+  color: #f00;
 }
 
-.et-logo {
-  min-width: 350px;
-  width: 50%;
+body .container {
+  max-width: 720px;
 }
-
-.et-summary {
-  font-size: 1.1em;
+body h2 {
+  background-color: #000;
+  color: #f00;
+  padding: 5px;
+  width: fit-content;
 }
