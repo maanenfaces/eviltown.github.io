@@ -3,7 +3,7 @@
   position: fixed;
   bottom: -100px;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.9;
 
   /* Preserve aspect ratio */
   min-width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .row .col-et {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 1em;
 }
 
@@ -20,12 +20,19 @@
   scroll-margin-top: 5rem;
 }
 
-#lineup {
+#home {
   margin-top: 2em;
 }
-#lineup .short-desc {
+#home .short-desc {
   font-size: 1.2em;
   font-style: italic;
+}
+
+#lineup {
+  margin-top: 4em;
+}
+#lineup .row.row-band.row-band-first .col-et {
+  padding-top: 2em;
 }
 
 #info {
@@ -46,24 +53,30 @@
 
 #navbar-main,
 #navbar-main.bg-dark {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 #navbar-main .container {
   max-width: 720px;
 }
 #navbar-main .navbar-brand {
-  color: #f00;
-  font-size: 1.4em;
+  color: #fff;
+  font-size: 1.8em;
 }
 #navbar-main .navbar-nav-links {
   margin-left: auto;
   margin-right: 0;
 }
 #navbar-main .nav-item a {
+  border-bottom: 3px #fff solid;
   color: #fff;
   font-size: 1.3em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding-left: 0;
+  padding-right: 0;
 }
 #navbar-main .nav-item a:hover {
+  border-color: #f00;
   color: #f00;
 }
 
@@ -71,7 +84,7 @@ body .container {
   max-width: 720px;
 }
 body h2 {
-  background-color: #000;
+  background-color: #fff;
   color: #f00;
   padding: 5px;
   width: fit-content;
