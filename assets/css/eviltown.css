@@ -6,24 +6,6 @@
   font-style: normal;
 }
 
-.main-bg-image {
-  background-color: #000;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.4;
-
-  /* Preserve aspect ratio */
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -999;
-}
-
-.row .col-et {
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 1em;
-}
-
 .scroll-margin {
   scroll-margin-top: 7rem;
 }
@@ -59,42 +41,98 @@
   margin-top: 1em;
 }
 
-#navbar-main,
-#navbar-main.bg-dark {
+/******************************
+ UPDATED ORDERED CSS
+******************************/
+
+.et h2,
+.et h3 {
+  text-transform: uppercase !important;
+  width: fit-content;
+}
+
+.et h2 {
+  background-color: #f00;
+  color: #fff;
+  padding: 3px 7px 3px 7px;
+}
+
+.et h3 {
+  background-color: #444;
+  border-left: 5px solid #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  padding: 3px 7px 3px 7px;
+}
+
+.et .bg-obj-image {
+  filter: grayscale(0.7);
+  opacity: 0.5;
+}
+
+.et .bg-obj-video {
+  filter: grayscale(1);
+  opacity: 0.05;
+}
+
+.et .bg-dark {
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-#navbar-main .container {
-  max-width: 720px;
+
+.et .container {
+  max-width: 800px;
 }
-#navbar-main .navbar-brand {
+
+.et .instagram-media {
+  /** This is the default Instragram markup, a little bit adapted **/
+  background: #fff;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 1px;
+  padding: 0;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+}
+
+.et .navbar .navbar-brand {
   color: #fff;
   font-size: 2.6em;
   margin-left: 0.1em;
 }
-#navbar-main .navbar-nav-links {
+
+.et .navbar .navbar-nav-links {
   margin-left: auto;
   margin-right: 0;
 }
-#navbar-main .nav-item a.btn-mf {
+
+.et .navbar .nav-item a.link-et {
   border-bottom: 3px #fff solid;
   color: #fff;
   font-size: 1.3em;
+  margin-bottom: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
   padding-left: 0;
   padding-right: 0;
 }
-#navbar-main .nav-item a.btn-mf:hover {
+
+.et .navbar .nav-item a.link-et:hover {
   border-color: #f00;
   color: #f00;
 }
 
-body .container {
-  max-width: 720px;
+.et .row .col-et {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1em;
 }
-body h2 {
-  background-color: #f00;
-  color: #fff;
-  padding: 5px;
-  width: fit-content;
+
+.et .row .col-et h3:first-child {
+  margin-top: 5px;
+}
+
+.et .row .col-et p:last-child {
+    margin-bottom: 5px;
 }

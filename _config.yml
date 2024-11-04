@@ -1,5 +1,11 @@
-languages: ["fr"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations:
+  - assets
+
+include:
+  - festival
+
+languages:
+  - fr
 
 plugins:
   - jekyll-multiple-languages-plugin

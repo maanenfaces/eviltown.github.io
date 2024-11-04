@@ -1,0 +1,20 @@
+page:
+  candidature_groupes:
+    description: |
+      Formulaire de candidature groupes pour le festival Evil Town Party,
+      festival rock privé (Nantes, France)
+    title: Candidature groupes
+  concept:
+    description: |
+      Présentation du projet et festival Evil Town Party, son concept, les
+      motivations qui poussent à son organisation, et comment celui-ci
+      s'insère dans le paysage musical nantais
+    title: Présentation et concept
+  index:
+    description: Evil Town Party, festival rock privé, Nantes, France
+    title: Festival Rock Privé ★ Gratuit sur invitation
+  infos_pratiques:
+    description: |
+      Toutes les informations pratiques pour venir et participer à
+      Evil Town Party, festival rock privé (Nantes, France)
+    title: Informations pratiques
